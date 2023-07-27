@@ -1,5 +1,8 @@
 name: Build FriendlyWrt
 
+permissions:
+  contents: write
+
 on:
   repository_dispatch:
   workflow_dispatch:
